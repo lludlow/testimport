@@ -94,7 +94,7 @@ graph TD
 
 ---
 
-## 3. Revolutionary Hybrid Memory System
+## 3. Hybrid Memory System
 
 ### 3.1 Memory Architecture Overview
 
