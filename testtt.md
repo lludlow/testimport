@@ -1,15 +1,8 @@
-# Skippy V8: Next-Generation AI Architecture with Advanced Hybrid Memory System
+# Skippy: AI Agent with Advanced Hybrid Memory System
 
-## Executive Summary
+## Summary
 
-Skippy V8 represents a breakthrough in conversational AI architecture, featuring an innovative **dual-path memory system** that delivers both instant responsiveness and deep contextual understanding. By combining real-time session memory with sophisticated background processing, Skippy V8 achieves unprecedented levels of personalization and intelligence while maintaining sub-second response times.
-
-### Key Differentiators
-- **🚀 Hybrid Memory Architecture**: Patent-pending dual-path system balancing immediate context with long-term learning
-- **⚡ Zero-Latency Response Path**: Hot-path processing ensures instant user feedback
-- **🧠 Continuous Learning**: Background intelligence extraction without impacting performance
-- **🔧 Enterprise-Ready**: Modular, scalable architecture supporting multiple LLM providers
-- **📊 Production-Proven**: Successfully handling 10,000+ daily conversations with 99.9% uptime
+Skippy represents a breakthrough in conversational AI architecture, featuring an innovative **dual-path memory system** that delivers both instant responsiveness and deep contextual understanding. By combining real-time session memory with sophisticated background processing, Skippy achieves unprecedented levels of personalization and intelligence while maintaining sub-second response times.
 
 ---
 
@@ -74,7 +67,7 @@ graph TD
     subgraph "Storage Layer"
         PG[(PostgreSQL)]
         VECTOR[(pgvector)]
-        CACHE[(Redis Cache)]
+        CACHE[(PostgreSQL Cache)]
     end
 
     UI --> API
